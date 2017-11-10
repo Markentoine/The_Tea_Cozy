@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	font-family: Helvetica, sans-serif;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	margin: 0;
+	height: 100%;
+
+}
+
+header{
+	display: flex;
+	align-items: center;
+	position: fixed;
+	height: 69px;
+	border-bottom: 1px solid seashell;
+	width: 100%;
+	background-color: black;
+}
+
+a{
+	color: seashell;
+}
+
+nav{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: 10px;
+}
+
+span{
+	margin: 10px;
+}
+
+h2, h4, h5{
+	padding: 10px;
+}
+
+img.logo{
+	margin-left: 10px;
+	height: 50px;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.one{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 700px;
+	width: 1200px;
+	margin-top: 69px;
+	background-image: url("../images/img-mission-background.jpg");
+	padding-top: 70px;
+}
+
+.missions{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 100%;
+}
+
+.two{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 1000px;
+	margin-top: 70px;
+}
+
+.two h2{
+	margin-bottom: 25px;
+}
+
+.teas{
+	display: flex;
+    justify-content: space-between;
+
+}
+
+.teas div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 25px 25px;
+}
+
+.a_tea img{
+	width: 300px;
+	height: 200px;
+	margin-bottom: 10px;
+}
+.three{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	width: 1200px;
+	height: 500px;
+	background-image: url(../images/img-locations-background.jpg);
+	margin-top: 70px;
+	padding-top: 70px;
+}
+
+.locations{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	opacity: 1;
+}
+
+.locations div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	width: 300px;
+	height: 257px;
+	background-color: black;
+	margin: 5px 20px;
+	padding: 10px;
+}
+
+.three h2{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	height: 200px;
+	width: 1200px;
+}
+
+.copyright{
+	text-align: left;
+	height: 20px;
+}
+
